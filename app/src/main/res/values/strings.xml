@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+
+    <string name="template">Some random Text</string>
+    <string name="emptyPlaceholder" />
+
+    <string name="context_menu_header">Opciones</string>
+
+    <!-- Navigation -->
+    <string name="title_people">Personas</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_weather">Clima</string>
+    <string name="title_activity">Actividad</string>
+
+    <!-- Context Menu -->
+    <string name="menu_edit">Editar</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="menu_delete_all">Eliminar en Todos</string>
+
+    <string name="menu_log_in">Iniciar Sesión</string>
+    <string name="menu_log_out">Cerrar Sesión</string>
+
+    <!-- Headers -->
+    <string name="title_action_create">Crear</string>
+    <string name="title_action_edit">Editar</string>
+
+    <string name="title_garden_view">Detalles del Jardín</string>
+    <string name="resource_name_person">persona</string>
+    <string name="resource_name_garden">jardín</string>
+    <string name="resource_name_weather">clima</string>
+    <string name="title_item_view">Inventario</string>
+    <string name="garden_title">Jardines Comunitarios</string>
+    <string name="create_account_header">Crear Cuenta</string>
+
+    <!-- Buttons -->
+    <string name="btn_save">Guardar</string>
+    <string name="btn_date">Fecha</string>
+
+    <!-- Form Hints -->
+    <string name="login_username_hint">Nombre de Usuario</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_crear_cuenta_hint">No tienes cuenta? Regístrate</string>
+    <string name="login_hint">Ya tienes cuenta? Inicia Sesión</string>
+    <string name="admin_switch_label">Administrador</string>
+
+    <string name="weather_form_date_select">Selecciona una fecha</string>
+    <string name="weather_form_temp_max">Temperatura Máxima (°C)</string>
+    <string name="weather_form_temp_min">Temperatura Mínima (°C)</string>
+    <string name="weather_form_humidity">Humedad (%)</string>
+    <string name="weather_form_rain">Probabilidad de Lluvia (%)</string>
+
+    <string name="view_cooldown">Tiempo restante para poder ver la actividad reciente otra vez: </string>
+    <string name="view_restricted">Debes iniciar sesión para ver la actividad reciente</string>
+
+    <string name="item_form_name">Nombre</string>
+    <string name="item_form_description">Descripción</string>
+    <string name="item_form_price">Precio por unidad</string>
+    <string name="item_form_quantity">Cantidad en Inventario</string>
+    <string name="todayTag">Hoy</string>
+</resources>

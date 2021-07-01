@@ -1,0 +1,31 @@
+package com.fernando.proyectofinal.ui.home;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.lifecycle.Lifecycle;
+import androidx.viewpager2.adapter.FragmentStateAdapter;
+
+import com.fernando.proyectofinal.GardenDetailsActivity;
+
+public class FragmentAdapter extends FragmentStateAdapter {
+
+    public FragmentAdapter(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle) {
+        super(fragmentManager, lifecycle);
+    }
+
+    @NonNull
+    @Override
+    public Fragment createFragment(int position) {
+        switch (position) {
+            case 1:
+                return GardenPlants.newInstance(GardenDetailsActivity.sGardenId);
+        }
+        return GardenDetails.newInstance(GardenDetailsActivity.sGardenId);
+    }
+
+    @Override
+    public int getItemCount() {
+        return 2;
+    }
+}

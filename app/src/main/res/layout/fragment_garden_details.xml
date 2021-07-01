@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/gardenBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:srcCompat="@drawable/ic_garden_pic"/>
+
+    <TextView
+        android:id="@+id/gardenNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Nombre del Jardin"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textFontWeight="600"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/gardenAddressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/open_sans"
+        android:text="Direccion del Jardin"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/gardenTypeIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_category"/>
+
+        <TextView
+            android:id="@+id/gardenTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/gardenTypeIcon"
+            android:fontFamily="@font/open_sans"
+            android:text="Invernadero"
+            android:textAllCaps="false"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/gardenLocationIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/gardenTypeIcon"
+            app:srcCompat="@drawable/ic_location" />
+
+        <TextView
+            android:id="@+id/gardenLocationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gardenTypeText"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/gardenLocationIcon"
+            android:fontFamily="@font/open_sans"
+            android:text="Invernadero"
+            android:textAllCaps="false"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
